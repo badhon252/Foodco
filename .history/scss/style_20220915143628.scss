@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/Circular_Std_Font.otf);
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/AirbnbCereal_W_Bd.otf);
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts//AirbnbCereal_W_Bk.otf);
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/AirbnbCereal_W_Blk.otf);
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/AirbnbCereal_W_Lt.otf);
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/AirbnbCereal_W_Md.otf);
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/AirbnbCereal_W_XBd.otf);
+}
+.container {
+  margin: 2rem 14rem;
+}
+.link {
+  text-decoration: none;
+  color: #353237;
+}
+li {
+  list-style-type: none;
+}
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.py-4 {
+  padding: 4rem 0;
+}
+.my-1 {
+  margin: 1rem 0;
+}
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 2rem 0;
+}
+.my-3 {
+  margin: 3rem 0;
+}
+.my-4 {
+  margin: 4rem 0;
+}
+.my-5 {
+  margin: 5rem 0;
+}
+
+// =======================
+//===========================
+#header {
+  background-color: #fff5f2;
+
+  .container {
+    margin: 0 14rem;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav {
+      display: flex;
+      .nav-item {
+        margin: 0 1.5rem;
+      }
+    }
+  }
+}

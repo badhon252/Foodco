@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap");
+@font-face {
+  font-family: circular;
+  src: url(../fonts/Circular_Std_Font.otf);
+}
+@font-face {
+  font-family: AirbnbCereal_W_Bd;
+  src: url(../fonts/AirbnbCereal_W_Bd.otf);
+}
+@font-face {
+  font-family: AirbnbCereal_W_Bk;
+  src: url(../fonts//AirbnbCereal_W_Bk.otf);
+}
+@font-face {
+  font-family: AirbnbCereal_W_Blk;
+  src: url(../fonts/AirbnbCereal_W_Blk.otf);
+}
+@font-face {
+  font-family: AirbnbCereal_W_Lt;
+  src: url(../fonts/AirbnbCereal_W_Lt.otf);
+}
+@font-face {
+  font-family: AirbnbCereal_W_Md;
+  src: url(../fonts/AirbnbCereal_W_Md.otf);
+}
+@font-face {
+  font-family: AirbnbCereal_W_XBd;
+  src: url(../fonts/AirbnbCereal_W_XBd.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  //   font-family: circular;
+}
+.container {
+  margin: 2rem 14rem;
+}
+.btn,
+.link {
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+  color: #353237;
+}
+.btn {
+  outline: none;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.active {
+  color: #353237 !important;
+}
+li {
+  list-style-type: none;
+}
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.py-4 {
+  padding: 4rem 0;
+}
+.my-1 {
+  margin: 1rem 0;
+}
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 2rem 0;
+}
+.my-3 {
+  margin: 3rem 0;
+}
+.my-4 {
+  margin: 4rem 0;
+}
+.my-5 {
+  margin: 5rem 0;
+}
+
+// =======================
+//===========================
+#header {
+  background-color: #fff5f2;
+
+  .container {
+    margin: 0 14rem;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .navbar-nav {
+      .nav-item {
+        margin: 0 1.5rem;
+        .nav-link {
+          font-weight: 500;
+          font-size: 1rem;
+          line-height: 20px;
+          text-transform: uppercase;
+          color: #9a97a1;
+          //   color: #353237;
+          &:hover {
+            color: #353237;
+          }
+        }
+      }
+      .btn {
+        background-color: #7b4cdf;
+        border-radius: 20.5px;
+        color: #fff;
+        margin-left: 2rem;
+        padding: 11px 21px;
+      }
+    }
+  }
+}
