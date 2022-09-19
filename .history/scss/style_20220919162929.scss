@@ -147,32 +147,17 @@ li {
       border: none;
       .head-avatar {
         position: relative;
-        z-index: 11;
       }
       .burger,
       .order-card,
       .food-card {
         position: absolute;
-        z-index: 11111;
-      }
-      .burger {
-        width: 120px;
-        height: auto;
-        left: 230px;
-        z-index: 1;
       }
       .order-card {
-        // position: absolute;
-        max-width: 300px;
-        height: auto;
-        top: 392px;
-        left: 177px;
-        bottom: 0;
+        position: absolute;
       }
       .food-card {
-        // position: absolute;
-        right: -20px;
-        bottom: -127px;
+        position: absolute;
       }
     }
   }

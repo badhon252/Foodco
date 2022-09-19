@@ -167,4 +167,36 @@ li {
   background: none;
   border: none;
 }
+
+#header .header-content .card .head-avatar {
+  position: relative;
+  z-index: 11;
+}
+
+#header .header-content .card .burger,
+#header .header-content .card .order-card,
+#header .header-content .card .food-card {
+  position: absolute;
+  z-index: 11111;
+}
+
+#header .header-content .card .burger {
+  width: 120px;
+  height: auto;
+  left: 230px;
+  z-index: 1;
+}
+
+#header .header-content .card .order-card {
+  max-width: 300px;
+  height: auto;
+  top: 392px;
+  left: 177px;
+  bottom: 0;
+}
+
+#header .header-content .card .food-card {
+  right: -20px;
+  bottom: -127px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -147,7 +147,6 @@ li {
       border: none;
       .head-avatar {
         position: relative;
-        z-index: 11;
       }
       .burger,
       .order-card,
@@ -155,23 +154,16 @@ li {
         position: absolute;
         z-index: 11111;
       }
-      .burger {
-        width: 120px;
-        height: auto;
-        left: 230px;
-        z-index: 1;
-      }
       .order-card {
         // position: absolute;
         max-width: 300px;
         height: auto;
-        top: 392px;
-        left: 177px;
+        left: 163;
         bottom: 0;
       }
       .food-card {
         // position: absolute;
-        right: -20px;
+        right: 392px;
         bottom: -127px;
       }
     }

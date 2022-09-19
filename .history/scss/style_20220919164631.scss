@@ -147,7 +147,6 @@ li {
       border: none;
       .head-avatar {
         position: relative;
-        z-index: 11;
       }
       .burger,
       .order-card,
@@ -158,8 +157,6 @@ li {
       .burger {
         width: 120px;
         height: auto;
-        left: 230px;
-        z-index: 1;
       }
       .order-card {
         // position: absolute;
