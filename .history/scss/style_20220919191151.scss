@@ -218,8 +218,8 @@ li {
   article {
     font-family: "inter";
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.2rem;
+    font-weight: 450;
+    font-size: 18px;
     line-height: 28px;
     color: #9a97a1;
   }
@@ -227,10 +227,12 @@ li {
     border: 1px solid #7b4cdf;
     border-radius: 19.5px;
     padding: 10px 30px;
-    font-weight: 600;
     &:hover {
       background: #7b4cdf;
       color: #fff;
     }
+  }
+  .col-md-4 {
+    // border: 1px solid rgba(0, 0, 0, 0.123);
   }
 }

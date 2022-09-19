@@ -204,7 +204,7 @@ li {
     line-height: 20px;
   }
   h2 {
-    font-family: "AirbnbCereal_W_Bd";
+    font-family: "AirbnbCereal_W_Blk";
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -214,23 +214,5 @@ li {
     text-align: center;
 
     color: #353237;
-  }
-  article {
-    font-family: "inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.2rem;
-    line-height: 28px;
-    color: #9a97a1;
-  }
-  .btn {
-    border: 1px solid #7b4cdf;
-    border-radius: 19.5px;
-    padding: 10px 30px;
-    font-weight: 600;
-    &:hover {
-      background: #7b4cdf;
-      color: #fff;
-    }
   }
 }

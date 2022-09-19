@@ -44,7 +44,7 @@
 
 .link {
   text-decoration: none;
-  color: #353237;
+  color: #453794;
 }
 
 .btn {
@@ -166,6 +166,7 @@ li {
 #header .header-content .card {
   background: none;
   border: none;
+  margin-bottom: 5rem;
 }
 
 #header .header-content .card .head-avatar {
@@ -198,5 +199,72 @@ li {
 #header .header-content .card .food-card {
   right: -20px;
   bottom: -127px;
+}
+
+.second-section {
+  background-color: #fff;
+}
+
+.second-section .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.second-section img {
+  max-width: 200px;
+  height: auto;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-filter: grayscale(100%) !important;
+          filter: grayscale(100%) !important;
+}
+
+.second-section img:hover {
+  -webkit-filter: grayscale(0%) !important;
+          filter: grayscale(0%) !important;
+}
+
+.third-section {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.third-section h5 {
+  color: #ff6b01;
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+.third-section h2 {
+  font-family: "AirbnbCereal_W_Bd";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 47px;
+  /* identical to box height */
+  text-align: center;
+  color: #353237;
+}
+
+.third-section article {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 28px;
+  color: #9a97a1;
+}
+
+.third-section .btn {
+  border: 1px solid #7b4cdf;
+  border-radius: 19.5px;
+  padding: 10px 30px;
+  font-weight: 600;
+}
+
+.third-section .btn:hover {
+  background: #7b4cdf;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
