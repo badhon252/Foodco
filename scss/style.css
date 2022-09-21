@@ -40,6 +40,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  white-space: none;
 }
 
 .link {
@@ -131,6 +132,12 @@ li {
   color: #fff;
   margin-left: 2rem;
   padding: 11px 21px;
+}
+
+#header .header-content {
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #header .header-content .left_h_c {

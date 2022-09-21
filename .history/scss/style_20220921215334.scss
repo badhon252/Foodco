@@ -33,7 +33,6 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   //   font-family: circular;
-  white-space: none;
 }
 // .container {
 //   margin: 2rem 14rem;
@@ -123,8 +122,7 @@ li {
   }
 
   .header-content {
-    overflow: hidden;
-    box-sizing: border-box;
+    overflow-x: hidden;
     .left_h_c {
       align-self: center;
     }
