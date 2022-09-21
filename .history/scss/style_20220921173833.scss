@@ -198,9 +198,6 @@ li {
 .third-section {
   padding: 4rem 0;
   text-align: center;
-  .col-lg-4 {
-    margin: 2rem 0;
-  }
   h5 {
     color: #ff6b01;
     font-size: 1rem;
@@ -272,10 +269,6 @@ li {
       border-radius: 12px;
       box-sizing: border-box;
       overflow-x: hidden;
-      cursor: pointer;
-      &:hover {
-        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-      }
     }
     .cart-info {
       padding: 2rem;
@@ -286,21 +279,14 @@ li {
       }
       .food-price {
         background-color: #7b4cdf12;
+        padding: 20px;
+        border-radius: 50%;
         color: #353237;
         text-align: center;
         width: 47px;
         height: 47px;
         box-sizing: border-box;
         overflow: hidden;
-        border-radius: 25px;
-      }
-      p {
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 23px;
-        text-align: center;
-        padding-top: 12px;
-        color: #353237;
       }
     }
     .ratings {

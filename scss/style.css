@@ -226,6 +226,10 @@ li {
   text-align: center;
 }
 
+.third-section .col-lg-4 {
+  margin: 2rem 0;
+}
+
 .third-section h5 {
   color: #ff6b01;
   font-size: 1rem;
@@ -309,6 +313,12 @@ li {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow-x: hidden;
+  cursor: pointer;
+}
+
+.fourth-section .row .food-card:hover {
+  -webkit-box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+          box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .fourth-section .row .cart-info {
@@ -323,10 +333,23 @@ li {
 
 .fourth-section .row .cart-info .food-price {
   background-color: #7b4cdf12;
-  padding: 20px;
-  border-radius: 50%;
   color: #353237;
   text-align: center;
+  width: 47px;
+  height: 47px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.fourth-section .row .cart-info p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  padding-top: 12px;
+  color: #353237;
 }
 
 .fourth-section .row .ratings {
@@ -447,6 +470,7 @@ li {
   line-height: 46px;
   /* or 128% */
   color: #353237;
+  margin-top: 2rem;
 }
 
 .sixth-section article {

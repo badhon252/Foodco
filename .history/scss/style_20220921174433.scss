@@ -198,9 +198,6 @@ li {
 .third-section {
   padding: 4rem 0;
   text-align: center;
-  .col-lg-4 {
-    margin: 2rem 0;
-  }
   h5 {
     color: #ff6b01;
     font-size: 1rem;
@@ -274,7 +271,7 @@ li {
       overflow-x: hidden;
       cursor: pointer;
       &:hover {
-        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
       }
     }
     .cart-info {
